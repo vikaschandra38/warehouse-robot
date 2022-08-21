@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  border: 1px solid green;
+}
+
+.container .row{
+  border: 1px solid blue;
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+}
