@@ -8,23 +8,32 @@
   </head>
   <body>
     <div style="text-align: center">
-  <h1>Warehouse Robot Tracking</h1>
-  <button class="promptBtn">Prompt user command</button>
-</div>
-<hr />
-<div class="main-container">
-  <table border="1" width="300px" height="300px" class="container">
-    <tbody class="tbody">
-    </tbody>
-  </table>
-  <div class="instructions">
-    <h3 style="text-decoration: underline;">Note:</h3>
-    <p>* - represents Robot</p>
-    <p># - represents a crate</p>
-    <p>Commands - N, S, W, E, G, D</p>
-    <p>All of the commands to the robot consist of a single capital <br/>letter and different commands are delineated by whitespace.</p>
-  </div>
-</div>
+      <h1>Warehouse Robot Tracking</h1>
+      <button class="promptBtn">Prompt user command</button>
+      <hr />
+      <button class="north">N</button>
+      <button class="south">S</button>
+      <button class="east">E</button>
+      <button class="west">W</button>
+      <button class="gather">G</button>
+      <button class="drop">D</button>
+    </div>
+    <hr />
+    <div class="main-container">
+      <table border="1" width="300px" height="300px" class="container">
+        <tbody class="tbody"></tbody>
+      </table>
+      <div class="instructions">
+        <h3 style="text-decoration: underline">Note:</h3>
+        <p>* - represents Robot</p>
+        <p># - represents a crate</p>
+        <p>Commands - N, S, W, E, G, D</p>
+        <p>
+          All of the commands to the robot consist of a single capital
+          <br />letter and different commands are delineated by whitespace.
+        </p>
+      </div>
+    </div>
     <script type="module" src="script.js"></script>
   </body>
 </html>
